@@ -59,7 +59,7 @@ router.post('/', (req, res, next) => {
     }
 });
 
-router.put(':/id', (req, res, next) => {
+router.put('/:id', (req, res, next) => {
 
     let todo = req.body;
 
